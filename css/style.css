@@ -29,15 +29,15 @@
 }
 .debug .col-8{
     border: 2px dotted rgb(47, 255, 179);
-    height: 100vh;
+    
     
 }
 .debug .col-4{
     border: 2px dotted rgb(78, 47, 255);
-    height: 100vh;
+    
 }
 /* general */
-a{
+a:not(.original-link){
     text-decoration: none;
     color: inherit;
 }
@@ -108,5 +108,33 @@ aside .aside-top i{
     box-shadow: none;
 }
 .accordion-button:not(.collapsed){
-    background-color: initial
+    background-color: initial;
+}
+.accordion-item:first-of-type{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.list-group .form-check-input{
+    box-shadow: none;
+}
+
+.list-group-item .img{
+    width: 100%;
+}
+.list-group-item .img img{
+    width: 100%;
+}
+
+.button-table{
+    width: 27px;
+    height: 27px;
+    line-height: 26px;
+    vertical-align: middle;
+}
+button.btn.btn-outline-secondary{
+    padding: 4px 8px;
+}
+
+.table-row-big{
+    width: 50%;
 }
