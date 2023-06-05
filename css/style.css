@@ -58,6 +58,8 @@ header div{
     vertical-align: middle;
     line-height: 50px;
 } */
+
+
 /* main */
 main{
     height: calc(100vh - 60px);
@@ -83,4 +85,10 @@ aside ul{
 aside .aside-top i{
     display: inline-block;
     width: 25px;
+}
+
+/* dashboard */
+
+.dashboard-header .badge{
+    background-color: rgba(0, 0, 0, 0.386);
 }
