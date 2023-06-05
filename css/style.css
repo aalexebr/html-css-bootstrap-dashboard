@@ -1,0 +1,32 @@
+/* debug */
+
+.debug header{
+    border: 2px dotted greenyellow;
+    height: 50px;
+}
+.debug .dashboard{
+    border: 2px dotted rgb(47, 255, 179);
+    
+}
+.debug aside{
+    border: 2px dotted rgb(255, 47, 241);
+    
+}
+
+/* header */
+
+/* main */
+main{
+    height: calc(100vh - 50px);
+    margin-top: 50px;
+}
+
+.dashboard{
+    height: calc(100vh - 50px);
+    
+    overflow-y: auto;
+}
+aside{
+    height: calc(100vh - 50px);
+    
+}
