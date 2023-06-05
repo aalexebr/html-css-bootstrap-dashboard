@@ -90,5 +90,23 @@ aside .aside-top i{
 /* dashboard */
 
 .dashboard-header .badge{
-    background-color: rgba(0, 0, 0, 0.386);
+    background-color: rgba(0, 0, 0, 0.231);
+}
+
+.plus{
+    height: 30px;
+    width: 30px;
+    /* line-height: 30px; */
+    vertical-align: middle;
+}
+/* .plus span{
+    vertical-align: middle;
+    line-height: 30px;
+} */
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed){
+    background-color: initial
 }
