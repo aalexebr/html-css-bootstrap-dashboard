@@ -14,19 +14,41 @@
 }
 .debug .aside-top{
     background-color: lightcoral;
-    height: 50px;
+    
     width: 100px;
 }
 .debug .aside-bottom{
     background-color: lightcoral;
-    height: 50px;
+    
     width: 100px;
 }
-
-
+.debug .dashboard-header{
+    border: 2px dotted rgb(255, 47, 241);
+    height: 50px;
+    
+}
+.debug .col-8{
+    border: 2px dotted rgb(47, 255, 179);
+    height: 100vh;
+    
+}
+.debug .col-4{
+    border: 2px dotted rgb(78, 47, 255);
+    height: 100vh;
+}
 
 /* header */
+header{
+    height: 50px;
 
+}
+header .row{
+    height: 100%;
+}
+
+header li{
+    display: inline-block;
+}
 /* main */
 main{
     height: calc(100vh - 50px);
@@ -37,9 +59,14 @@ main{
     height: calc(100vh - 50px);
     overflow-y: auto;
 }
+
+/* aside */
 aside{
     height: calc(100vh - 50px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+aside ul{
+    list-style-type: none;
 }
