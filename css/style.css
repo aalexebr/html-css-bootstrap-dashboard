@@ -12,7 +12,7 @@
     border: 2px dotted rgb(255, 47, 241);
     
 }
-.debug .aside-top{
+/* .debug .aside-top{
     background-color: lightcoral;
     
     
@@ -21,7 +21,7 @@
     background-color: lightcoral;
     
    
-}
+} */
 .debug .dashboard-header{
     border: 2px dotted rgb(255, 47, 241);
     
@@ -36,46 +36,44 @@
     border: 2px dotted rgb(78, 47, 255);
     
 }
+
+
 /* general */
 a:not(.original-link){
     text-decoration: none;
     color: inherit;
 }
-
+:root{
+    --header-height: 60px;
+    /* var(--header-height) */
+}
 
 /* header */
+
 header{
-    height: 60px;
+    height: var(--header-height);
 
 }
-/* header .row{
-    height: 100%;
-} */
-
-header li{
+/* header li{
     display: inline-block;
-}
-/* header .logo,
-header div{
-    vertical-align: middle;
-    line-height: 50px;
 } */
+
 
 
 /* main */
 main{
-    height: calc(100vh - 60px);
-    margin-top: 60px;
+    height: calc(100vh - var(--header-height));
+    margin-top: var(--header-height);
 }
 
 .dashboard{
-    height: calc(100vh - 60px);
+    height: calc(100vh - var(--header-height));
     overflow-y: auto;
 }
 
 /* aside */
 aside{
-    height: calc(100vh - 60px);
+    height: calc(100vh - var(--header-height));
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -93,7 +91,7 @@ aside .aside-top i{
     width: 25px;
 }
 .aside-function:hover{
-    background-color: grey;
+    background-color: rgba(255, 255, 255, 0.155);
 }
 
 /* dashboard */
@@ -103,9 +101,8 @@ aside .aside-top i{
 }
 
 .plus{
-    height: 25px;
-    width: 27px;
-    line-height: 24px;
+    height: 30px;
+    width: 30px;
     vertical-align: middle;
 }
 
@@ -152,8 +149,8 @@ button.btn.btn-outline-secondary{
 .offcanvas.offcanvas-end{
     width: 100vw;
 }
-@media screen and (min-width: 765px){
+@media screen and (min-width: 992px){
     .offcanvas.offcanvas-end{
-        width: 40vw;
+        width: 45vw;
     }
 }
