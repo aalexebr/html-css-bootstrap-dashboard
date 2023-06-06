@@ -80,7 +80,7 @@ aside{
     flex-direction: column;
     justify-content: space-between;
     background-image: url('../img/sidebar-bg.png');
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     background-color: #051E34;
 }
@@ -108,10 +108,8 @@ aside .aside-top i{
     line-height: 24px;
     vertical-align: middle;
 }
-/* .plus span{
-    vertical-align: middle;
-    line-height: 30px;
-} */
+
+
 /* bootstrap status reset */
 .accordion-button:focus{
     box-shadow: none;
@@ -133,6 +131,15 @@ aside .aside-top i{
 .list-group-item .img img{
     width: 100%;
 }
+/* .btn:hover{
+    background-color: initial;
+    color: initial;
+}
+
+header .btn:active{
+    background-color: initial;
+    color: initial;
+} */
 /* table button dashboard */
 .button-table{
     width: 27px;
@@ -143,14 +150,13 @@ aside .aside-top i{
 button.btn.btn-outline-secondary{
     padding: 4px 8px;
 }
-
 .table-row-big{
     width: 50%;
 }
 
 
 
-
+/* offcanvas */
 .offcanvas.offcanvas-end{
     width: 100vw;
 }

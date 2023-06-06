@@ -26,29 +26,39 @@
                 </div>
                 <div class="col-auto p-0">
                     <ul class="p-0  d-inline-block m-0 ">
-                        <li>
-                            <button class="btn border-0 py-0 pb-1 btn-outline-secondary d-none d-lg-inline-block" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-list-ul"></i>
-                            </button>
+                        <li class="text-secondary">
+                            <!-- <button class="btn d-none d-lg-inline-block " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-list-ul "></i>
+                            </button> -->
+                            <a href="#" class="p-2 d-none d-lg-inline-block">
+                                <i class="fa-solid fa-list-ul "></i>
+                            </a>
+                        </li>
+                        <li class="text-secondary">
+                            <!-- <button class="btn d-none d-lg-inline-block " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-circle-question "></i>
+                            </button> -->
+                            <a href="#" class="p-2 d-none d-lg-inline-block">
+                                <i class="fa-solid fa-circle-question "></i>
+                            </a>
+                        </li>
+                        <li class="text-secondary">                      
+                            <!-- <button class="btn d-none d-lg-inline-block " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-ellipsis-vertical "></i>
+                            </button> -->
+                            <a href="#" class="p-2 d-none d-lg-inline-block">
+                                <i class="fa-solid fa-ellipsis-vertical "></i>
+                            </a>
                         </li>
                         <li>
-                            <button class="btn border-0 py-0 pb-1 btn-outline-secondary d-none d-lg-inline-block" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-circle-question"></i>
-                            </button>
-                        </li>
-                        <li>                      
-                            <button class="btn border-0 py-0 pb-1 btn-outline-secondary d-none d-lg-inline-block" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-ellipsis-vertical"></i>
-                            </button>
-                        </li>
-                        <li>
-                            <!-- <a href="#" class="pe-2">
-                                <i class="fa-solid fa-bell"></i>
-                            </a> -->
+                            
                             <div class="dropdown">
-                                <button class="btn border-0 py-0 pb-1 btn-outline-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <!-- <button class="btn border-0 py-0 pb-1 btn-outline-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <i class="fa-solid fa-bell"></i>
-                                </button>
+                                </button> -->
+                                <a href="#" class="p-2 text-warning d-inline-block" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-bell"></i>
+                                </a> 
                                 <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -600,7 +610,22 @@
                             </label>
                             <input class="form-control" type="file" id="formFile" placeholder="">
                           </div>
-                          
+                    </div>
+                    <div class="col-12 mb-2">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="select-to-cont">
+                            <label class="form-check-label" for="select-to-cont">
+                            Seleziona per proseguire
+                            </label>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary">
+                            Salva
+                        </button>
+                        <button type="reset" class="btn btn-warning">
+                            Svuota
+                        </button>
                     </div>
                 </div>
 
