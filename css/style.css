@@ -54,6 +54,10 @@ header{
     height: var(--header-height);
 
 }
+.logo .logo-small{
+    
+    width: 45px;
+}
 
 
 
