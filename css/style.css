@@ -61,13 +61,13 @@ header{
 
 
 
-/* main */
-main{
+/* dashboard */
+.dashboard{
     height: calc(100vh - var(--header-height));
     margin-top: var(--header-height);
 }
 
-.dashboard{
+main{
     height: calc(100vh - var(--header-height));
     overflow-y: auto;
 }
@@ -92,7 +92,7 @@ aside .aside-top i{
     background-color: rgba(255, 255, 255, 0.155);
 }
 
-/* dashboard */
+/* main */
 
 .dashboard-header .badge{
     background-color: rgba(0, 0, 0, 0.231);
