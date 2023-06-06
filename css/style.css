@@ -41,14 +41,16 @@ a:not(.original-link){
     text-decoration: none;
     color: inherit;
 }
+
+
 /* header */
 header{
     height: 60px;
 
 }
-header .row{
+/* header .row{
     height: 100%;
-}
+} */
 
 header li{
     display: inline-block;
@@ -77,6 +79,10 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-image: url('../img/sidebar-bg.png');
+    background-position: center center;
+    background-size: cover;
+    background-color: #051E34;
 }
 aside ul{
     list-style-type: none;
@@ -85,6 +91,9 @@ aside ul{
 aside .aside-top i{
     display: inline-block;
     width: 25px;
+}
+.aside-function:hover{
+    background-color: grey;
 }
 
 /* dashboard */
