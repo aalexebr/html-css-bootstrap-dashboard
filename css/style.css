@@ -139,10 +139,17 @@ aside .aside-top i{
 button.btn.btn-outline-secondary{
     padding: 4px 8px;
 }
-.table-row-big{
-    width: 50%;
-}
+/* .table-row-big{
+    min-width: 50%;
+} */
 
+/* table cell problem */
+@media screen and (min-width: 992px){
+    
+    .table-row-big{
+        min-width: 50%;
+    }
+}
 
 
 /* offcanvas */
@@ -153,4 +160,5 @@ button.btn.btn-outline-secondary{
     .offcanvas.offcanvas-end{
         width: 45vw;
     }
+    
 }
