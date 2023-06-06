@@ -147,3 +147,15 @@ button.btn.btn-outline-secondary{
 .table-row-big{
     width: 50%;
 }
+
+
+
+
+.offcanvas.offcanvas-end{
+    width: 100vw;
+}
+@media screen and (min-width: 765px){
+    .offcanvas.offcanvas-end{
+        width: 40vw;
+    }
+}
