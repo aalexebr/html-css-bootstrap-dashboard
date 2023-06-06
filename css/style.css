@@ -94,16 +94,16 @@ aside .aside-top i{
 }
 
 .plus{
-    height: 30px;
-    width: 30px;
-    /* line-height: 30px; */
+    height: 25px;
+    width: 25px;
+    line-height: 24px;
     vertical-align: middle;
 }
 /* .plus span{
     vertical-align: middle;
     line-height: 30px;
 } */
-
+/* bootstrap status reset */
 .accordion-button:focus{
     box-shadow: none;
 }
@@ -117,14 +117,14 @@ aside .aside-top i{
 .list-group .form-check-input{
     box-shadow: none;
 }
-
+/*  */
 .list-group-item .img{
     width: 100%;
 }
 .list-group-item .img img{
     width: 100%;
 }
-
+/* table button dashboard */
 .button-table{
     width: 27px;
     height: 27px;
